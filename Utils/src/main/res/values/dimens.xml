@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--分割线的宽、高-->
+    <dimen name="line_size">0.5dp</dimen>
+    <dimen name="dialog_corner">5dp</dimen>
+</resources>

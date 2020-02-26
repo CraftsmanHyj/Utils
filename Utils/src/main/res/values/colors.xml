@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <!--分割线的颜色-->
+    <color name="line">#EEEEEE</color>
+    <!--小面积使用于重要的链接文字颜色-->
+    <color name="hyperlink">#4172B1</color>
+</resources>
