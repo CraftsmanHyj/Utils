@@ -35,7 +35,7 @@ public class CusDialog extends Dialog {
     private Button btnNegative;//取消按钮
     private Button btnPositive;//确定按钮
 
-    private CusDialog(@NonNull Context context, Builder builder) {
+    protected CusDialog(@NonNull Context context, Builder builder) {
         super(context, R.style.CusDialog);
 
         this.BUILDER = builder;
@@ -81,8 +81,7 @@ public class CusDialog extends Dialog {
         if (null == BUILDER.cusView) {
             return;
         }
-
-        tvMessage.setVisibility(View.GONE);
+        llCusView.removeView(tvMessage);
         llCusView.addView(BUILDER.cusView);
     }
 

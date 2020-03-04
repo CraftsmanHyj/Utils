@@ -11,7 +11,7 @@ import android.os.Handler;
  * Author：hyj
  * Date：2019/10/20 9:49
  */
-public class InitUtils {
+public class UtilsInit {
     public static Configurator init(Context context) {
         Configurator.getInstance()
                 .getLatteConfigs()
